@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Work</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Darker Grotesque', sans-serif;
+      background-color: #ffffff;
+      color: #6F6F6F;
+    }
+    
+    h1, h2, h3 {
+      font-weight: normal;
+    }
+    
+    .site-header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      color: 6F6F6F;
+      background-color: #FFF3F9;
+      padding: 5px 40px;
+      display: flex;
+      align-items: center;
+      box-shadow: 0 0 20px 5px #FFF3F9;
+    }
+    
+    .site-header nav {
+      margin-left: 60%;
+    }
+    
+    .site-header a {
+      text-decoration: none;
+      color: #6F6F6F;
+    }
+    
+    .site-header a:hover {
+      color: #FFCDE7;
+    }
+    
+    .intro-section {
+      text-align: center;
+      background-color: #FFF3F9;
+      padding: 40px;
+      margin: 30% 10% 20%;
+      font-size: 30px;
+      color: #464444;
+      border-radius: 70px;
+      box-shadow: 0 0 20px 5px #FFF1F9;
+    }
+
+    .container {
+      width: 80%;
+      margin: 5% auto;
+      background-color: #fff;
+      padding: 10px;
+    }
+    
+    .section {
+      width: 70%;
+      margin: 10px auto 100px auto;
+      padding: 30px 30px;
+      border: 1px solid #ddd;
+      background-color: #fafafa;
+      border-radius: 30px;
+      overflow: auto;
+      white-space: nowrap;
+    }
+    
+    .section img {
+      padding: 10px;  
+    }
+    
+    .float-img {
+      margin-right: 15px;
+      border-radius: 50px;
+
+    }
+    
+    footer {
+      background-color: #FFF3F9;
+      color: #333;
+      text-align: center;
+      margin-top: 10px;  
+      padding-top: 20px;
+      padding-bottom: 40px; 
+    }
+    
+    footer a {
+      text-decoration: none;
+      color: #6F6F6F;
+    }
+      
+    footer a:hover {
+      color: #FFCDE7;
+    }
+        
+    /* For tablets and small desktops */
+    @media (max-width: 768px) {
+      .site-header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+      }
+      .site-header nav {
+        margin: 0 0;
+      }
+      .intro-section {
+        margin: 50% 8%;
+        font-size: 22px;
+        padding: 30px;
+      }
+      .container {
+        width: 90%;
+        padding: 15px;
+      }
+      .section {
+        padding: 10px 5%;
+      }
+      .float-img {
+        float: none;
+        display: block;
+        margin: 10px auto;
+      }
+    }
+    
+    /* For mobile phones */
+    @media (max-width: 480px) {
+      .site-header {
+        padding: 5px 20px;
+      }
+      .intro-section {
+        margin: 50% 10%;
+        font-size: 20px;
+        padding: 20px;
+      }
+      .container {
+        width: 80%;
+        padding: 10px;
+      }
+      .section {
+        padding: 5% 10%;
+      }
+    }
+  </style>
+</head>
+<body>
+  
+  <!-- Fixed Header -->
+  <header class="site-header">
+    <div class="home-button">
+      <h2>Annora (Eungeat) Jo</h2>
+    </div>
+    <nav>
+      <h2 style="word-spacing: 30px;">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+      </h2>
+    </nav>
+  </header>
+
+  <!-- Full-Screen Introduction -->
+  <div class="intro-section">
+    <h2>
+      A Product Designer with<br>
+      a pixel-level precision and a background<br>
+      in front-end development.
+    </h2>
+  </div>
+
+  <!-- About -->
+    <div id="about" class="container">
+      <img src="IMG_4789.jpg" alt="Selfie" width="250" style="float: right;
+      border-radius: 50px; margin-top: 75px;">
+      
+      <h1 style="color:#FFCDE7">
+      Hi — This is Annora :) <br>
+      <span style="color:#6F6F6F;"> A third-year Global Business &amp; Digital Arts<br>student at the University of Waterloo.
+      </span>
+      </h1>
+
+      <h3 style="margin-top:50px;">
+      As an aspiring product designer, Annora is passionate for crafting<br> accessible digital products with an engaging experience. She gets <br>excited for a problem-solving with interdepartmental collaboration<br> as it allows her to gain a broader perspective. Also, prototyping<br>and finalizing designs with her pixel-level precision are some of the<br>  specialties as a designer. </h3>
+      <h2 style="margin-top:60px;">What has she been up to lately?</h2>
+        <ul>
+          <li><b>Courses</b> taking “Meta Professional Front-end Development Certification” on Coursera</li>
+          <li><b>Home-baking</b> all sorts of desserts — She has been baking for 6 years now !</li>
+          <li><b>Photography/Film</b> — Annora vlogs and upload on YouTube sometimes </li>
+          <li><b>Playing acoustic guitar</b> as a hobby :D</li>
+          <li><b>Self nails</b> — TMI: She started self nails to save money on getting it done </li>
+        </ul>
+    </div>
+
+  <!-- hobby -->
+    <div class="container">
+      <img src="hobby7.jpg" alt="Outdoor Running" height="200" width="200" style="border-radius: 20px;">
+      <img src="hobby2.jpg" alt="Korean Cafe picture" height="200" width="200" style="border-radius: 20px;">
+      <img src="hobby3.jpg" alt="Doodle of a girl" height="200" width="200" style="border-radius: 20px;">
+      <img src="hobby6.jpg" alt="self nail" height="200" width="200" style="border-radius: 20px;">
+      <img src="hobby1.JPG" alt="Korean Cafe picture" height="200" width="200" style="border-radius: 20px;">
+      <img src="hobby5.jpg" alt="Ipad drawing of Kim Jiwon" height="200" width="200" style="border-radius: 20px;">
+      <img src="hobby8.jpg"  alt="Picture from a party" height="200" width="200" style="border-radius: 20px;">
+      <img src="hobby4.jpg"  alt="Baked salt bun" height="200" width="200" style="border-radius: 20px;">
+    </div>
+    
+  <!-- work pieces -->
+    <div id="work" class="container">
+      <h2>Bits of Work</h2>
+    </div>
+
+    <section class="section">         
+      <img src="Llounge home.png" alt="Llounge home page" height="400" style="border-radius: 40px;">
+      <img src="Llounge audio.png" alt="Llounge audio page" height="400" style="border-radius: 40px;">
+      <img src="williams website.png" alt="william's fresh cafe website" height="400">
+      <img src="williams website2.png" alt="william's fresh cafe website" height="400">
+      <img src="wellnest.png" alt="Wellnest" height="400" style="border-radius: 40px;">
+      <img src="akcse website3.png" alt="akcse uw website"  height="400">
+      <img src="akcse website2.png" alt="akcse uw website"  height="400">
+      <img src="fema home.png" alt="akcse uw website"  height="400" style="border-radius: 40px;">
+      <img src="fema widget.png" alt="akcse uw website"  height="400">
+    </section>
+
+  <!-- Footer -->
+  <footer>
+    <h1>Let's Connect :D</h1>
+    <h3 style="word-spacing: 100px;">
+      <a href="mailto:a3jo@uwaterloo.ca">a3jo@uwaterloo.ca</a>
+      <a href="www.linkedin.com/in/annorajo">LinkedIn</a>
+      <a href="https://www.instagram.com/annora.jo/">Instagram</a>
+    </h3>
+  </footer>
+</body>
+</html>
